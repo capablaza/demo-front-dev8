@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "simulator-front:dev"  
-        CONTAINER_NAME = "simulator-front-dev"
+        IMAGE_NAME = "simulator-front-8:dev"  
+        CONTAINER_NAME = "simulator-front-dev-8"
         OUT_CONTAINER_PORT="6108"
         IN_CONTAINER_PORT="80"      
     }
